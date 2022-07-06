@@ -1,0 +1,59 @@
+.AboutMe {
+  background-color: black;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.AboutMe .Container {
+  display: flex;
+}
+
+.AboutMe .Container .Text {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.AboutMe .Container .Text h2 {
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutMe .Container .Text p {
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  column-count: 2;
+  column-gap: 4%;
+  text-indent: 7%;
+  justify-content:baseline;
+  padding: 2em 0em;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.AboutMe .Container .Text a {
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.AboutMe .Container .Text a:hover {
+  font-weight: 200;
+  font-size: 16px;
+  color:rgb(140, 38, 208);
+  text-decoration: none;
+}
+
+.AboutMe .Container .Photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutMe .Container .Photo .Me {
+  height: 500px;
+  border-radius: 10%;
+  /* margin: 2%; */
+}
