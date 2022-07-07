@@ -1,7 +1,7 @@
 .Skills {
   background-color: #141313;
   padding-bottom: 5%;
-  padding-top: 2%;
+
 }
 
 .Skills h2 {
@@ -24,14 +24,18 @@
   padding-left: 5%;
 }
 
+
+
 .Skills .Container {
   display: block;
+  flex-wrap: wrap;
+  box-shadow: 0 0 12px 4px #518697;
   color: rgb(51, 51, 51);
   padding: 2em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
   line-height: 1.75em;
   font-size: 1em;
   font-weight: lighter;
-  border: 1px solid rgb(153, 153, 153);
+  border: 1px solid #518697;
 }

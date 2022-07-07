@@ -1,6 +1,6 @@
 .Home {
   background: #191D1F;
-  background: linear-gradient(90deg, rgba(54,30,70,1) 66%, rgb(95, 25, 142) 95%);
+  background: linear-gradient(90deg, black 60%, #c5d248 95%);
   display: flex;
   height: 630px;
   padding-top: 80px;
@@ -15,7 +15,7 @@
 }
 
 .Home .Container .Hello {
-  font-size: 3rem;
+  font-size: 5rem;
   padding-top: 10%;
 }
 
@@ -29,19 +29,19 @@
 
 .Home .Container h2 {
   margin: 0;
-  font-size: 2.15rem;
+  font-size: 3.4rem;
   font-weight: 200;
   padding-top: 1%;
-  letter-spacing: 3.5px;
+  letter-spacing: 6px;
   display: flex;
   position: relative;
 }
 
 .Home .Container p {
-  font-size: 1rem;
-  margin-right: 35%;
+  font-size: .9rem;
+  margin-right: 5%;
   padding-top: 3%;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   display: flex;
   position: relative;
 }
@@ -55,11 +55,11 @@
 }
 
 .Home .UtDesert {
-  height: 70%;
+  height: 65%;
   position: absolute;
-  right: 10%;
-  left: 40%;
-  top: 20%;
+  right: 5%;
+  left: 44%;
+  top: 23%;
   margin-left: 5%;
   /* border: 1px solid rgb(153, 153, 153);
   padding: 1%; */

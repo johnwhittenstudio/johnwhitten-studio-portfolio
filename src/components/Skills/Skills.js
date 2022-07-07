@@ -1,25 +1,26 @@
 import classes from './Skills.module.css'
 import PageHeader from './../PageHeader/PageHeader'
 
-const backendSkills =
-<ul>
-  <li>BACKEND</li>
-  <li>C# - Java - SQL</li>
-</ul>
+// const backendSkills =
+// <ul>
+//   <li>BACKEND</li>
+//   <li>C# - Java - SQL</li>
+// </ul>
 
-const frontendSkills =
-<ul>
-  <li>FRONTEND</li>
-  <li>ReactJS - HTML - CSS - Redux</li> 
-</ul>
+// const frontendSkills =
+// <ul>
+//   <li>FRONTEND</li>
+//   <li>ReactJS - HTML - CSS - Redux</li> 
+// </ul>
 
 const Skills = () => {
   return ( 
-    <div className={classes.Skills}>
+    <div className={classes.Skills} id="skills">
       <PageHeader title={'Skills'}/>
       <br/>
       <div className={classes.Container}>
       <h2><strong>What I can bring to your team</strong></h2>
+      <hr className="skillsHr"/>
         <p>
           • Developing the latest user-facing features using React.js
           <br/>

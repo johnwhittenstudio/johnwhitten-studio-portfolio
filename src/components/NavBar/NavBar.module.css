@@ -7,7 +7,7 @@
 }
 
 .NavBar {
-  background: #191d1f9d;
+  background: black;
   height: 80px;
   width: 100%;
   position: fixed;
@@ -37,5 +37,5 @@
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #8C1CD1;
+  border-bottom: 5px solid #518697;
 }
