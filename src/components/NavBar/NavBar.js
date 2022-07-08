@@ -1,32 +1,14 @@
 import classes from './NavBar.module.css'
+import Navigation from './Navigation';
+import MobileNavigation from './MobileNavigation';
 
 const NavBar = () => {
   return ( 
     <div className={classes.NavBar}>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/#about">About</a>
-          </li>
-          <li>
-            <a href="/#skills">Skills</a>
-          </li>
-          <li>
-            <a href="/#youtube">YouTube</a>
-          </li>
-          <li>
-            <a href="/#projects">Projects</a>
-          </li>
-          <li>
-            <a href="/#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <MobileNavigation />
+        <Navigation />
     </div>
-   );
+  );
 }
- 
+
 export default NavBar;

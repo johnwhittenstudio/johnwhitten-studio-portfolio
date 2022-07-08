@@ -37,5 +37,50 @@
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #518697;
+  border-bottom: 5px solid #c5d248;
+}
+
+.NavBar .MobileNavigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+    .NavBar .Navigation {
+      display: none;
+    }
+
+    .NavBar .MobileNavigation {
+      display: flex;
+      align-items: center;
+    }
+
+    .NavBar nav ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      background: #181818;
+      border-top: 2px solid #c5d248;
+    }
+
+    .NavBar nav ul li {
+      padding-left: 15%;
+    }
+
+    .NavBar {
+      opacity: 1;
+    }
+
+    .NavBar a:hover {
+      border-bottom: none;
+      color: #c5d248;
+    }
+}
+
+.NavBar .MobileNavigation .Hamburger {
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
 }
