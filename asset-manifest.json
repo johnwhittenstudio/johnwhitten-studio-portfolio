@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/johnwhitten-studio-portfolio/static/css/main.111e2c1a.css",
+    "main.js": "/johnwhitten-studio-portfolio/static/js/main.db147524.js",
+    "static/media/ut-desert.jpg": "/johnwhitten-studio-portfolio/static/media/ut-desert.2950de1cd35e073a47ff.jpg",
+    "static/media/mooningNancy.png": "/johnwhitten-studio-portfolio/static/media/mooningNancy.90a380903eff8c07bd8a.png",
+    "static/media/headshot.jpg": "/johnwhitten-studio-portfolio/static/media/headshot.f90e19549ccb98119600.jpg",
+    "static/media/littlePigeon.png": "/johnwhitten-studio-portfolio/static/media/littlePigeon.34288fd2cb416968ba76.png",
+    "static/media/John-Whitten_Resume.pdf": "/johnwhitten-studio-portfolio/static/media/John-Whitten_Resume.29168167d362592a746d.pdf",
+    "index.html": "/johnwhitten-studio-portfolio/index.html",
+    "main.111e2c1a.css.map": "/johnwhitten-studio-portfolio/static/css/main.111e2c1a.css.map",
+    "main.db147524.js.map": "/johnwhitten-studio-portfolio/static/js/main.db147524.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.111e2c1a.css",
+    "static/js/main.db147524.js"
+  ]
+}
