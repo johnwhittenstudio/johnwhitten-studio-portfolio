@@ -54,13 +54,26 @@
   padding: 1%;
 }
 
-.Home .UtDesert {
-  height: 65%;
-  position: absolute;
-  right: 5%;
-  left: 44%;
-  top: 23%;
-  margin-left: 5%;
-  /* border: 1px solid rgb(153, 153, 153);
-  padding: 1%; */
+.Home .Column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home .Row {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.Home .Icons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 5%;
+}
+
+.Home .Resume {
+  font-size: .9rem;
+  letter-spacing: 3px;
 }

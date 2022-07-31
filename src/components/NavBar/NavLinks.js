@@ -28,19 +28,20 @@ const NavLinks = (props) => {
         onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#skills">Skills</a>
       </motion.li>
-      <motion.li 
+      {/* <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#youtube">YouTube</a>
-      </motion.li>
-      {/* <motion.li 
+      </motion.li> */}
+      <motion.li 
         initial={animateFrom}
         animate={animateTo}
+        transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#projects">Projects</a>
-      </motion.li> */}
+      </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
