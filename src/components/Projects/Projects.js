@@ -23,7 +23,7 @@ const handleURL = (url) => {
 }
 
 
-const portfolioImage = (url, thumbnail, description) => {
+const portfolioImage = (url, thumbnail, title, description) => {
   return(
     <div className={classes.ImageContainer}>
       <div className={classes.Thumbnail} onClick={handleURL(url)}>
@@ -33,15 +33,18 @@ const portfolioImage = (url, thumbnail, description) => {
           
       </div>
       <div className={classes.Text}>
+        <h2><i>{title}</i></h2>
+        <br></br>
         <p>{description}</p>
       </div>
     </div>
   )
 }
 
-const thunderstruckImageDescription = `React website with interactive components for an artist residency called Thunderstruck Collective.`;
-
-const taproomImageDescription = `React website with full CRUD capability for a fictitious tap room called Michelob Angelo's Pietàproom.`;
+const thunderstruckTitle = `Thunderstruck`;
+const thunderstruckImageDescription = `React website with interactive components for an artist collective.`;
+const maTaproomTitle = `Michelob Angelo's Pietàproom`;
+const taproomImageDescription = `React website with full CRUD capability for a fictitious tap room.`;
 
 const Projects = () => {
   return ( 
@@ -55,8 +58,8 @@ const Projects = () => {
           </p> */}
         </div>
         <div className={classes.Images}>
-          {portfolioImage("https://www.johnwhitten.com/", thunderstruck, thunderstruckImageDescription )}
-          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, taproomImageDescription )}
+          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription )}
+          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, taproomImageDescription )}
         </div>
       </div>
     </div>
