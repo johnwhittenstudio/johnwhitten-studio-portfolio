@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/johnwhitten-studio-portfolio/static/css/main.92fa195b.css",
-    "main.js": "/johnwhitten-studio-portfolio/static/js/main.d6996226.js",
-    "static/media/headshot.jpg": "/johnwhitten-studio-portfolio/static/media/headshot.f90e19549ccb98119600.jpg",
+    "main.js": "/johnwhitten-studio-portfolio/static/js/main.5b6e25ca.js",
+    "static/media/headshot.jpg": "/johnwhitten-studio-portfolio/static/media/headshot.295f7d1d83a7491abe0c.jpg",
     "static/media/thunderstruck.png": "/johnwhitten-studio-portfolio/static/media/thunderstruck.1891cfd9c2c4be5e69c3.png",
     "static/media/taproom.png": "/johnwhitten-studio-portfolio/static/media/taproom.8bb72d222d728ee612a1.png",
     "static/media/John-Whitten_Resume.pdf": "/johnwhitten-studio-portfolio/static/media/John-Whitten_Resume.4a3b59a67f0a2952875f.pdf",
     "index.html": "/johnwhitten-studio-portfolio/index.html",
     "main.92fa195b.css.map": "/johnwhitten-studio-portfolio/static/css/main.92fa195b.css.map",
-    "main.d6996226.js.map": "/johnwhitten-studio-portfolio/static/js/main.d6996226.js.map"
+    "main.5b6e25ca.js.map": "/johnwhitten-studio-portfolio/static/js/main.5b6e25ca.js.map"
   },
   "entrypoints": [
     "static/css/main.92fa195b.css",
-    "static/js/main.d6996226.js"
+    "static/js/main.5b6e25ca.js"
   ]
 }
