@@ -2,6 +2,7 @@ import classes from './Projects.module.css'
 import PageHeader from './../PageHeader/PageHeader'
 import thunderstruck from './../../img/thunderstruck.png'
 import taproom from './../../img/taproom.png'
+// import { FaGithub } from "react-icons/fa";
 // import background from './../../img/ut-desert.jpg'
 
 // const playBtnSvg = (url => {
@@ -23,7 +24,7 @@ const handleURL = (url) => {
 }
 
 
-const portfolioImage = (url, thumbnail, title, description) => {
+const portfolioImage = (url, thumbnail, title, description, github, livesite ) => {
   return(
     <div className={classes.ImageContainer}>
       <div className={classes.Thumbnail} onClick={handleURL(url)}>
@@ -36,6 +37,15 @@ const portfolioImage = (url, thumbnail, title, description) => {
         <h2><i>{title}</i></h2>
         <br></br>
         <p>{description}</p>
+        {/* <FaGithub color="white" size='30px' style={{justifyContent: 'center', padding: '1%'}}
+        onClick={handleURL({github})} /> */}
+        <br></br>
+        <hr></hr>
+        <br></br>
+        <div className={classes.LinkContainer} >
+          <a href={github}><p>View on GitHub</p></a>
+          <a href={livesite}><p>View Live Site</p></a>
+        </div>
       </div>
     </div>
   )
@@ -43,8 +53,12 @@ const portfolioImage = (url, thumbnail, title, description) => {
 
 const thunderstruckTitle = `Thunderstruck`;
 const thunderstruckImageDescription = `React website with interactive components for an artist collective.`;
+const thunderstruckGitHub = `https://github.com/johnwhittenstudio/thunderstruck`;
+const thunderstruckLiveSite = `https://thunderstruckcollective.com`;
 const maTaproomTitle = `Michelob Angelo's Pietàproom`;
-const taproomImageDescription = `React website with full CRUD capability for a fictitious tap room.`;
+const maTaproomImageDescription = `React website with full CRUD capability for a fictitious tap room.`;
+const maTaproomGitHub = `https://github.com/johnwhittenstudio/tap-room`;
+const maTaproomLiveSite = `https://johnwhittenstudio.github.io/tap-room/`;
 
 const Projects = () => {
   return ( 
@@ -58,8 +72,8 @@ const Projects = () => {
           </p> */}
         </div>
         <div className={classes.Images}>
-          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription )}
-          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, taproomImageDescription )}
+          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckGitHub, thunderstruckLiveSite )}
+          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, maTaproomImageDescription, maTaproomGitHub, maTaproomLiveSite )}
         </div>
       </div>
     </div>

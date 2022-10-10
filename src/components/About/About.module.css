@@ -1,7 +1,7 @@
 .AboutMe {
   background-color: black;
   padding-bottom: 5%;
-  padding-top: 2%;
+  padding-top: 4%;
 }
 
 .AboutMe .Container {
@@ -13,11 +13,27 @@
 
 .AboutMe .Container .Text {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  margin-left: 6%;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+/* .AboutMe .Container .Text .ParagraphOne {
+  display: inline-block;
+  justify-content: center;
+  min-width: 35vw;
+  min-height: 100%;
+}
+
+.AboutMe .Container .Text .ParagraphTwo {
+  display: flex;
+  justify-content: center;
+  min-width: 35vw;
+  min-height: 100%;
+} */
 
 .AboutMe .Container .Text h2 {
   font-weight: 900;
@@ -29,8 +45,8 @@
   font-size: 16px;
   color: white;
   column-count: 2;
-  column-gap: 4%;
-  text-indent: 7%;
+  column-gap: 5%;
+  text-indent: 5%;
   justify-content:baseline;
   padding: 2em 0em;
   line-height: 1.5em;
@@ -53,13 +69,50 @@
 }
 
 .AboutMe .Container .Photo {
-  width: 50vw;
+  width: 60vw;
   display: flex;
   justify-content: center;
+  margin-right: 5%;
 }
 
 .AboutMe .Container .Photo .Me {
   max-height: 500px;
   border-radius: 10%;
-  /* margin: 2%; */
+  margin: 2%;
+}
+
+
+/* ------------ Mobile ------------ */
+
+@media (max-width: 1275px) {
+
+}
+
+
+@media (max-width: 990px) {
+
+  .AboutMe {
+    background-color: black;
+    padding-bottom: 5%;
+    padding-top: 8%;
+  }
+
+  .AboutMe .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .AboutMe .Container .Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
 }

@@ -1,7 +1,8 @@
 import classes from './Home.module.css'
 import { SiCss3, SiHtml5, SiJavascript, SiTypescript, SiReact, SiCsharp } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
-import { FaGitAlt } from "react-icons/fa";
+import { FaGitAlt, FaPhp } from "react-icons/fa";
+import { GrWordpress } from "react-icons/gr";
 import Resume from "./../../PDF/John-Whitten_Resume.pdf";
 
 
@@ -23,6 +24,8 @@ const Home = () => {
               <SiTypescript color="c5d248" size='50px' style={{paddingRight: '5%'}} />
               <IoLogoNodejs color="c5d248" size='60px' style={{paddingRight: '5%'}} />
               <SiReact color="c5d248" size='55px' style={{paddingRight: '5%'}} />
+              <GrWordpress color="c5d248" size='55px' style={{paddingRight: '5%'}} />
+              <FaPhp color="c5d248" size='75px' style={{paddingRight: '5%'}} />
               <SiCsharp color="c5d248" size='55px' style={{paddingRight: '5%'}} />
               <FaGitAlt color="c5d248" size='55px' style={{paddingRight: '5%'}} />
             </div>
