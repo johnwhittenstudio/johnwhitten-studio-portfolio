@@ -20,7 +20,7 @@ const Skills = () => {
       <br/>
       <div className={classes.Container}>
       <h2><strong>What I can bring to your team</strong></h2>
-      <hr className="skillsHr"/>
+      <hr className="skillsHr" color="#518697"/>
         <p>
           • Developing the latest user-facing features using React.js
           <br/>

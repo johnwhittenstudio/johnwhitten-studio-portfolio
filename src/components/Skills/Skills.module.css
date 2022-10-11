@@ -17,11 +17,13 @@
 .Skills p {
   color: white;
   font-size: 1.1em;
+  column-count: 2;
+  column-gap: 5%;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
 
@@ -38,4 +40,24 @@
   font-size: 1em;
   font-weight: lighter;
   border: 1px solid #518697;
+}
+
+
+
+/* ------------ Mobile ------------ */
+
+@media (max-width: 990px) {
+
+  .Skills p {
+    color: white;
+    font-size: 1.1em;
+    column-count: 1;
+    /* column-gap: 5%; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 2%;
+  }
+
 }
