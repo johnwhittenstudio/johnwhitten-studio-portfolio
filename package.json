@@ -1,7 +1,7 @@
 {
   "name": "johnwhitten-studio-portfolio",
   "version": "0.1.0",
-  "homepage": "/johnwhitten-studio-portfolio/",
+  "homepage": "https://johnwhittenstudio.github.io/johnwhitten-studio-portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
