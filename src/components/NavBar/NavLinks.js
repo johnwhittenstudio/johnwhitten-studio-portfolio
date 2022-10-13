@@ -19,28 +19,28 @@ const NavLinks = (props) => {
         animate={animateTo}
         transition={{delay: 0.10}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#about">About</a>
+        <a href="/johnwhitten-studio-portfolio/#about">About</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}        
         transition={{delay: 0.20}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#skills">Skills</a>
+        <a href="/johnwhitten-studio-portfolio/#skills">Skills</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#projects">Projects</a>
+        <a href="/johnwhitten-studio-portfolio/#projects">Projects</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.40}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/#contact">Contact</a>
+        <a href="/johnwhitten-studio-portfolio/#contact">Contact</a>
       </motion.li>
     </ul>
   );
