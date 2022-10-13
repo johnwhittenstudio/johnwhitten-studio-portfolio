@@ -68,8 +68,8 @@ const maTaproomLiveSite = `https://johnwhittenstudio.github.io/tap-room/`;
 // space age calculalor
 const spaceAgeTitle = `Space Age Calculator`;
 const spaceAgeImageDescription = `Javascript/HTML/CSS web app that calculates age and life expectancy on different planets.`;
-const spaceAgeGitHub = `https://github.com/johnwhittenstudio/tap-room`;
-const spaceAgeLiveSite = `https://johnwhittenstudio.github.io/tap-room/`;
+const spaceAgeGitHub = `https://github.com/johnwhittenstudio/project-5`;
+const spaceAgeLiveSite = `https://johnwhittenstudio.github.io/project-5/`;
 
 // nasa api
 const nasaApiTitle = `NASA Photo of the Day API`;
