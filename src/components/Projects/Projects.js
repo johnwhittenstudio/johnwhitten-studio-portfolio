@@ -27,7 +27,7 @@ const handleURL = (url) => {
 }
 
 
-const portfolioImage = (url, thumbnail, title, description, github, livesite ) => {
+const portfolioImage = (url, thumbnail, title, description, tech, github, livesite ) => {
   return(
     <div className={classes.ImageContainer}>
       <div className={classes.Thumbnail} onClick={handleURL(url)}>
@@ -39,15 +39,19 @@ const portfolioImage = (url, thumbnail, title, description, github, livesite ) =
       <div className={classes.Text}>
         <h2><i>{title}</i></h2>
         <br></br>
-        <p>{description}</p>
+        <p>{description}</p>        
+        <br></br>
+        <p>{tech}</p>
         <br></br>
         <div className={classes.LinkContainer} >
           <a href={github}><p>View on GitHub</p></a>
+          <span>&nbsp;&nbsp;</span>
           <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
           <a href={livesite}><p>View Live Site</p></a>
         </div>
         <br></br>
-        <hr color="c5d248"></hr>
+      <hr color="c5d248"></hr>
       </div>
     </div>
   )
@@ -55,25 +59,29 @@ const portfolioImage = (url, thumbnail, title, description, github, livesite ) =
 
 // thunderstruck
 const thunderstruckTitle = `Thunderstruck`;
-const thunderstruckImageDescription = `React website with interactive components for an artist collective.`;
+const thunderstruckImageDescription = `Portfolio website with interactive components for an artist collective.`;
+const thunderstruckTech = `React | MaterialUI | ParticleImage | CardFlip`;
 const thunderstruckGitHub = `https://github.com/johnwhittenstudio/thunderstruck`;
 const thunderstruckLiveSite = `https://thunderstruckcollective.com`;
 
 // michelob angelos taproom
 const maTaproomTitle = `Michelob Angelo's Pietàproom`;
-const maTaproomImageDescription = `React website with full CRUD capability for a fictitious tap room.`;
+const maTaproomImageDescription = `Vendor App with full CRUD capability for a fictitious tap room.`;
+const maTaproomTech = `React | Bootstrap`;
 const maTaproomGitHub = `https://github.com/johnwhittenstudio/tap-room`;
 const maTaproomLiveSite = `https://johnwhittenstudio.github.io/tap-room/`;
 
 // space age calculalor
 const spaceAgeTitle = `Space Age Calculator`;
-const spaceAgeImageDescription = `Javascript/HTML/CSS web app that calculates age and life expectancy on different planets.`;
+const spaceAgeImageDescription = `Web app that calculates age and life expectancy on different planets.`;
+const spaceAgeTech = `JavaScript | HTML5 | CSS`;
 const spaceAgeGitHub = `https://github.com/johnwhittenstudio/project-5`;
 const spaceAgeLiveSite = `https://johnwhittenstudio.github.io/project-5/`;
 
 // nasa api
 const nasaApiTitle = `NASA Photo of the Day API`;
-const nasaApiImageDescription = `Javascript/HTML/CSS web app that uses NASA Photo of the Day API.`;
+const nasaApiImageDescription = `Web app that uses NASA Photo of the Day API.`;
+const nasaApiTech = `JavaScript | HTML5 | CSS`;
 const nasaApiGitHub = `https://johnwhittenstudio.github.io/nasa_api/`;
 const nasaApiLiveSite = `https://johnwhittenstudio.github.io/nasa_api/`;
 
@@ -90,10 +98,10 @@ const Projects = () => {
           </p> */}
         </div>
         <div className={classes.Images}>
-          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckGitHub, thunderstruckLiveSite )}
-          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, maTaproomImageDescription, maTaproomGitHub, maTaproomLiveSite )}
-          {portfolioImage("https://johnwhittenstudio.github.io/project-5/", spaceage, spaceAgeTitle, spaceAgeImageDescription, spaceAgeGitHub, spaceAgeLiveSite )}
-          {portfolioImage("https://johnwhittenstudio.github.io/nasa_api/", nasaApi, nasaApiTitle, nasaApiImageDescription, nasaApiGitHub, nasaApiLiveSite )}
+          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckTech, thunderstruckGitHub, thunderstruckLiveSite )}
+          {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, maTaproomImageDescription, maTaproomTech, maTaproomGitHub, maTaproomLiveSite )}
+          {portfolioImage("https://johnwhittenstudio.github.io/project-5/", spaceage, spaceAgeTitle, spaceAgeImageDescription, spaceAgeTech, spaceAgeGitHub, spaceAgeLiveSite )}
+          {portfolioImage("https://johnwhittenstudio.github.io/nasa_api/", nasaApi, nasaApiTitle, nasaApiImageDescription, nasaApiTech, nasaApiGitHub, nasaApiLiveSite )}
         </div>
       </div>
     </div>
