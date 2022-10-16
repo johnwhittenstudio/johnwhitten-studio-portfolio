@@ -57,7 +57,7 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
           <button className={classes.Button}><a href={livesite}><p>View Live Site</p></a></button>
         </div>
         <br></br>
-      <hr color="c5d248"></hr>
+        <hr className={classes.Hr} color="c5d248"></hr>
       </div>
     </div>
   )
