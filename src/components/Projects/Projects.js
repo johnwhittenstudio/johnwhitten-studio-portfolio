@@ -44,11 +44,17 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
         <p>{tech}</p>
         <br></br>
         <div className={classes.LinkContainer} >
-          <a href={github}><p>View on GitHub</p></a>
+          <button className={classes.Button}><a href={github}><p>View on GitHub</p></a></button>
           <span>&nbsp;&nbsp;</span>
           <hr color="c5d248"></hr>
           <span>&nbsp;&nbsp;</span>
-          <a href={livesite}><p>View Live Site</p></a>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <button className={classes.Button}><a href={livesite}><p>View Live Site</p></a></button>
         </div>
         <br></br>
       <hr color="c5d248"></hr>
