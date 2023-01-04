@@ -1,7 +1,9 @@
 import classes from './Projects.module.css'
 import PageHeader from './../PageHeader/PageHeader'
+import digitalart from './../../img/core-digitalart.png'
 import thunderstruck from './../../img/thunderstruck.png'
 import taproom from './../../img/taproom.png'
+import artportfolio from './../../img/art-portfolio.png'
 import spaceage from './../../img/spaceage.png'
 import nasaApi from './../../img/nasa-api.png'
 
@@ -44,17 +46,17 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
         <p>{tech}</p>
         <br></br>
         <div className={classes.LinkContainer} >
-          <button className={classes.Button}><a href={github}><p>View on GitHub</p></a></button>
-          <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
-          <span>&nbsp;&nbsp;</span>
-          <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
-          <span>&nbsp;&nbsp;</span>
-          <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
-          <span>&nbsp;&nbsp;</span>
           <button className={classes.Button}><a href={livesite}><p>View Live Site</p></a></button>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="c5d248"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <button className={classes.Button}><a href={github}><p>View on GitHub</p></a></button>
         </div>
         <br></br>
         <hr className={classes.Hr} color="c5d248"></hr>
@@ -63,31 +65,44 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
   )
 }
 
+// core: digital art
+const coreDigitalTitle = `Core: Digital Studio`;
+const coreDigitalImageDescription = `Student learning supplement website for college-level digital art course.`;
+const coreDigitalTech = `WordPress • PHP • JavaScript • CSS`;
+const coreDigitalGitHub = `https://github.com/johnwhittenstudio/core-digital-studio`;
+const coreDigitalLiveSite = `https://dll.qxo.mybluehost.me/`;
+
 // thunderstruck
 const thunderstruckTitle = `Thunderstruck`;
 const thunderstruckImageDescription = `Portfolio website with interactive components for an artist collective.`;
-const thunderstruckTech = `React | MaterialUI | ParticleImage | CardFlip`;
+const thunderstruckTech = `React • MaterialUI • ParticleImage • CardFlip`;
 const thunderstruckGitHub = `https://github.com/johnwhittenstudio/thunderstruck`;
 const thunderstruckLiveSite = `https://thunderstruckcollective.com`;
 
 // michelob angelos taproom
 const maTaproomTitle = `Michelob Angelo's Pietàproom`;
 const maTaproomImageDescription = `Vendor App with full CRUD capability for a fictitious tap room.`;
-const maTaproomTech = `React | Bootstrap`;
+const maTaproomTech = `React • Bootstrap • CSS`;
 const maTaproomGitHub = `https://github.com/johnwhittenstudio/tap-room`;
 const maTaproomLiveSite = `https://johnwhittenstudio.github.io/tap-room/`;
+
+// studio art portfolio
+const artPortfolioTitle = `Studio Art Portfolio`;
+const artPortfolioImageDescription = `Studio art portfolio site built using CMS.`;
+const artPortfolioTech = `Squarespace`;
+const artPortfolioLiveSite = `https://www.johnwhitten.com/`;
 
 // space age calculalor
 const spaceAgeTitle = `Space Age Calculator`;
 const spaceAgeImageDescription = `Web app that calculates age and life expectancy on different planets.`;
-const spaceAgeTech = `JavaScript | HTML5 | CSS`;
+const spaceAgeTech = `JavaScript • HTML5 • CSS`;
 const spaceAgeGitHub = `https://github.com/johnwhittenstudio/project-5`;
 const spaceAgeLiveSite = `https://johnwhittenstudio.github.io/project-5/`;
 
 // nasa api
 const nasaApiTitle = `NASA Photo of the Day API`;
 const nasaApiImageDescription = `Web app that uses NASA Photo of the Day API.`;
-const nasaApiTech = `JavaScript | HTML5 | CSS`;
+const nasaApiTech = `JavaScript • HTML5 • CSS • API`;
 const nasaApiGitHub = `https://johnwhittenstudio.github.io/nasa_api/`;
 const nasaApiLiveSite = `https://johnwhittenstudio.github.io/nasa_api/`;
 
@@ -104,8 +119,10 @@ const Projects = () => {
           </p> */}
         </div>
         <div className={classes.Images}>
+          {portfolioImage("https://dll.qxo.mybluehost.me", digitalart, coreDigitalTitle, coreDigitalImageDescription, coreDigitalTech, coreDigitalGitHub, coreDigitalLiveSite )}
           {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckTech, thunderstruckGitHub, thunderstruckLiveSite )}
           {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, maTaproomImageDescription, maTaproomTech, maTaproomGitHub, maTaproomLiveSite )}
+          {portfolioImage("https://www.johnwhitten.com/", artportfolio, artPortfolioTitle, artPortfolioImageDescription, artPortfolioTech, artPortfolioLiveSite )}
           {portfolioImage("https://johnwhittenstudio.github.io/project-5/", spaceage, spaceAgeTitle, spaceAgeImageDescription, spaceAgeTech, spaceAgeGitHub, spaceAgeLiveSite )}
           {portfolioImage("https://johnwhittenstudio.github.io/nasa_api/", nasaApi, nasaApiTitle, nasaApiImageDescription, nasaApiTech, nasaApiGitHub, nasaApiLiveSite )}
         </div>
