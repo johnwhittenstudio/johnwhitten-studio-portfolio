@@ -13,7 +13,7 @@ const Home = () => {
       <div className={classes.Container}>
         <h1 className={classes.Hello}>JOHN WHITTEN</h1>
         <h2>SOFTWARE ENGINEER</h2>
-        <p>PROGRESSIVE WEB APPLICATIONS IN REACT, NODEJS, AND MORE...</p>
+        <p>PROGRESSIVE WEB APPLICATIONS IN REACT, WORDPRESS, AND MORE...</p>
         <br/>
         <div className={classes.Row}>
           <div className={classes.Column}>
