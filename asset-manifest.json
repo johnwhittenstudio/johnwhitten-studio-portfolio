@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/johnwhitten-studio-portfolio/static/css/main.a3efa3dc.css",
-    "main.js": "/johnwhitten-studio-portfolio/static/js/main.253aacbb.js",
+    "main.css": "/johnwhitten-studio-portfolio/static/css/main.e8fb8271.css",
+    "main.js": "/johnwhitten-studio-portfolio/static/js/main.80971cfa.js",
     "static/media/spaceage.png": "/johnwhitten-studio-portfolio/static/media/spaceage.d400940f4fb4bd0555a9.png",
-    "static/media/headshot.jpg": "/johnwhitten-studio-portfolio/static/media/headshot.295f7d1d83a7491abe0c.jpg",
     "static/media/core-digitalart.png": "/johnwhitten-studio-portfolio/static/media/core-digitalart.32efdbee3fffa032edfb.png",
     "static/media/art-portfolio.png": "/johnwhitten-studio-portfolio/static/media/art-portfolio.8bd550ab9cbbced41d72.png",
+    "static/media/headshot.jpg": "/johnwhitten-studio-portfolio/static/media/headshot.d1d99ef929c03762e66a.jpg",
     "static/media/nasa-api.png": "/johnwhitten-studio-portfolio/static/media/nasa-api.4990f62b61e2faeac37b.png",
     "static/media/taproom.png": "/johnwhitten-studio-portfolio/static/media/taproom.440cf75ac155d8d4c4d3.png",
     "static/media/thunderstruck.png": "/johnwhitten-studio-portfolio/static/media/thunderstruck.c0678523501870148b37.png",
     "static/media/John-Whitten_Resume.pdf": "/johnwhitten-studio-portfolio/static/media/John-Whitten_Resume.f09fc2207ac532cd95e1.pdf",
     "index.html": "/johnwhitten-studio-portfolio/index.html",
-    "main.a3efa3dc.css.map": "/johnwhitten-studio-portfolio/static/css/main.a3efa3dc.css.map",
-    "main.253aacbb.js.map": "/johnwhitten-studio-portfolio/static/js/main.253aacbb.js.map"
+    "main.e8fb8271.css.map": "/johnwhitten-studio-portfolio/static/css/main.e8fb8271.css.map",
+    "main.80971cfa.js.map": "/johnwhitten-studio-portfolio/static/js/main.80971cfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3efa3dc.css",
-    "static/js/main.253aacbb.js"
+    "static/css/main.e8fb8271.css",
+    "static/js/main.80971cfa.js"
   ]
 }
