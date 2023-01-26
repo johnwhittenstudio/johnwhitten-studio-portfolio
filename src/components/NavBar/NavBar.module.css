@@ -3,7 +3,6 @@
 * {
   margin: 0;
   font-family: "Allerta";
-  /* color: #ffffff; */
 }
 
 .NavBar {
@@ -92,5 +91,5 @@
   position: absolute;
   right: 5%;
   cursor: pointer;
-  color: #4de29d;
+  color: #4de29d !important;
 }

@@ -1,16 +1,166 @@
 .Contact {
-  background: #151515;
-  height: 300px;
+  background: #242424;
+  height: 100%;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
-.Contact .ContactIcons {
-  width: 100%;
+.ContactForm {
+  width: 80%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.Contact .ContactIcons svg path {
-  cursor: pointer;
+.Header {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+}
+
+.Header h1 {
+  font-size: 4rem;
+  margin-bottom: 5%;
+}
+
+.Header h4 {
+  font-size: 1rem;
+  width: 75%;
+  color: white;
+  margin-bottom: 15%;
+  line-height: 2em;
+}
+
+.Contact .FormHR {
+  min-width: 700px !important;
+}
+
+
+
+/* .Contact h4 {
+  color: white;
+  margin-bottom: 5%;
+} */
+
+.Contact .Form {
+  width: 45%;
+  padding: 15% 0;
+}
+
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: .95rem;
+  font-weight: 400;
+  color: white !important;
+  border: none;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  background: #242424;
+}
+ 
+textarea {
+  width: 100%;
+  padding: 12px 20px 80px 20px;
+  margin: 8px 0;
+  font-size: .95rem;
+  color: white !important;
+  border: none;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  background: #242424;
+}
+
+button {
+  padding: 12px 0;
+  margin: 8px 0;
+  font-size: .95rem;
+  border: none;
+  color: white;
+  border-bottom: 2px solid #4de29d;
+  box-sizing: border-box;
+  background: #242424;
+  position: relative;
+  float: right;
+}
+
+.FormSubmitted {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #242424;
+}
+
+.FormSubmitted h1 {
+  margin: 3% 0;
+}
+
+
+
+
+
+@media (max-width: 990px) {
+  .ContactForm {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .Header h1 {
+    font-size: 4rem;
+    margin: 5% 0;
+  }
+  
+  .Header h4 {
+    font-size: 1rem;
+    width: 85%;
+    color: white;
+    margin: 0;
+    line-height: 2em;
+  }
+  
+  .Contact .Form {
+    width: 85%;
+  }
+
+
+}
+  
+
+
+
+@media (max-width: 600px) {
+  .ContactForm {
+    width: 100%;
+  }
+  .Header {
+    width: 100%;
+  }
+  .Header h4 {
+    font-size: 1.15rem;
+    width: 80%;
+  }
+  
 }

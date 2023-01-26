@@ -16,19 +16,23 @@ const About = () => {
             <div className={classes.ParagraphOne}>
               <p>
               Based in Portland, Oregon, I'm a front-end developer passionate about building accessible web apps that users love.
+
               <br></br>
               <br></br>
+
               I have a background in Art and Design, 10 years of experience in higher education teaching complex software to beginner and upper-level learners, and a wide range of technical software development skills using a variety of tech stacks.
+
               <br></br>
               <br></br>
+
               I believe that collaboration is crucial for building high-quality products and fostering a positive work culture. I am a dedicated, detail-oriented, kind-hearted, and easy-going teammate who can work efficiently and effectively under tight deadlines with folks from all backgrounds. I lead with empathy, listen patiently, and welcome feedback in order to deliver the best results for my clients.
               </p>
             </div>
-            <hr></hr>
+            {/* <hr></hr> */}
             <div className={classes.ParagraphTwo}>
-              <p>
+              {/* <p>
               Based in Portland, Oregon, I'm a front-end developer passionate about building accessible web apps that users love.
-              </p>
+              </p> */}
             </div>
         </div>
         <div className={classes.Photo}>

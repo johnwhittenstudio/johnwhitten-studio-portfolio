@@ -17,3 +17,35 @@
 .Container h1 {
   color: white;
 }
+
+
+@media (max-width: 824px) {
+  .Container {
+    margin-top: 0 !important;
+    padding-top: -5 !important;
+  }
+  
+  .Container .Title {
+    padding-top: 10% !important;
+  }
+
+  .Container .HR {
+    padding-bottom: 10% !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .Container .HR {
+    /* display: none; */
+    padding-bottom: 20% !important;
+  }
+  .Container .Title {
+    padding-top: 15% !important;
+  }
+  .Container {
+    display: flex;
+    justify-content: left !important;
+    padding-left: 5%;
+  }
+}
