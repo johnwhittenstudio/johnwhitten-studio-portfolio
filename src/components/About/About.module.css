@@ -1,6 +1,6 @@
 .AboutMe {
   background-color: #151515;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   padding-top: 4%;
 }
 
@@ -24,7 +24,7 @@
 .AboutMe .Container .Text .ParagraphOne {
   display: flex;
   justify-content: center;
-  min-width: 35vw;
+  width: 35vw;
   min-height: 100%;
 }
 
@@ -77,7 +77,7 @@
 
 .AboutMe .Container .Photo .Me {
   max-height: 500px;
-  border-radius: 10%;
+  /* border-radius: 5%; */
   margin: 2%;
   filter: grayscale(100%);
 
@@ -115,6 +115,13 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .AboutMe .Container .Text .ParagraphOne {
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    min-height: 100%;
   }
 
   .AboutMe .Container .Photo {

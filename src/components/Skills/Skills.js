@@ -18,49 +18,83 @@ const Skills = () => {
     <div className={classes.Skills} id="skills">
       <PageHeader title={'Skills'}/>
       <br/>
+      <hr className={classes.SkillsHr} color="grey"/>
       <div className={classes.Container}>
-      <h2><strong>What I can bring to your team</strong></h2>
-      <hr className="skillsHr" color="#518697"/>
-        <p>
-          • Developing the latest user-facing features using React.js
-          <br/>
-          • Designing a modern highly responsive web-based user interface
-          <br/>
-          • Building reusable components and front-end libraries for future use
-          <br/>
-          • Translating designs and wireframes into high-quality code
-          <br/>
-          • Learn and understand user interactions
-          <br/>
-          • Optimizing components for maximum performance across a vast array of web-capable devices and browsers
-          <br/>
-          • Coordinating with various teams working on distinct layers
-          <br/>
-          • Full involvement from conception to completion with projects that are technologically sound and aesthetically impressive
-          <br/>
-          • Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
-          <br/>
-          • Thorough understanding of React.js and its core principles
-          <br/>
-          • Prior experience with popular React.js workflows (such as Flux or Redux)
-          <br/>
-          • Familiarity with more current specifications of EcmaScript
-          <br/>
-          • Familiarity with RESTful APIs
-          <br/>
-          • Familiarity with HTML / CSS
-          <br/>
-          • GIT experience, Team work-flows, and remote coordination
-          <br/>
-          • Knowledge of modern authorization mechanisms, such as JSON Web Token
-          <br/>
-          • Familiarity with modern front-end build pipelines and tools
-          <br/>
-          • Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
-          <br/>
-          • Ability to understand business requirements and translate them into technical requirements
-        </p>
+      {/* <h2><strong>What I can bring to your team</strong></h2> */}
+        <div className={classes.Skill}>
+          <h2>HTML</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>CSS</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Javascript</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Accessibility</h2>
+          <p>5 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>React</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>WordPress</h2>
+          <p>1 Year Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>PHP</h2>
+          <p>1 Year Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>C#</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>.NET</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>SQL</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>CMS</h2>
+          <p>10 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Photoshop</h2>
+          <p>14 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Premiere</h2>
+          <p>10 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>InDesign</h2>
+          <p>8 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Illustrator</h2>
+          <p>4 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Lightroom</h2>
+          <p>5 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>AfterEffects</h2>
+          <p>2 Years Experience</p>
+        </div>
+        <div className={classes.Skill}>
+          <h2>Audition</h2>
+          <p>4 Years Experience</p>
+        </div>
       </div>
+      <hr className={classes.SkillsHr} color="grey"/>
     </div>
   );
 }
