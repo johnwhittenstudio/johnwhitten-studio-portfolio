@@ -32,7 +32,7 @@
 
 .Home .Container h2 {
   margin: 0;
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 200;
   padding-top: 1%;
   letter-spacing: 6px;
@@ -42,6 +42,7 @@
 
 .Home .Container p {
   font-size: .9rem;
+  width: 70%;
   margin-right: 5%;
   padding-top: 3%;
   letter-spacing: 5px;
@@ -137,6 +138,11 @@
   }
 
 
+  @media (max-width: 745px) {
+    .Home .Container h2 {
+      font-size: 2.5rem;
+    }
+  }
 
   @media (max-width: 728px) {
     .Home {
@@ -147,6 +153,9 @@
       font-size: 4rem;
       padding-top: 8%;
       font-weight: 800;
+    }
+    .Home .Container h2 {
+      font-size: 2.2rem;
     }
   }
 
