@@ -13,15 +13,27 @@ const About = () => {
             <br></br>
             I thrive in a team that values collaborative problem solving, sophisticated design, and quality work. I am a veresatile developer who adapts to new challanges, technologies, and methodolgies. I am comfortable using a variety of technologies such as Typescript, ReactJS, NodeJs, MaterialUI, PHP, and numerous others. Please visit my <a href="https://github.com/johnwhittenstudio">GitHub</a>, give me a star, explore, and enjoy...
             </p> */}
-            <p>
-            Hi! I am a full-stack web and mobile developer with expertise in JavaScript, CSS, React.js, WordPress, and C#. I am skilled in front-end development and comfortable working at all levels of the development process, from wireframing and design system implementation to integrating back-end systems and databases. I value creating beautiful, responsive UI and clean, maintainable, and accessible code. I enjoy working in a team that values collaborative problem-solving, sophisticated design, and high-quality work. I am adaptable and comfortable using a variety of technologies such as Typescript, ReactJS, NodeJS, MaterialUI, PHP, and more. My portfolio and <a href="https://github.com/johnwhittenstudio">GitHub</a> profile showcase my work. 
-            <br/>
-            In addition to my technical skills, I am passionate about building meaningful connections in my community through my work as a developer, creative, educator, and art gallery co-founder. I excel at problem-solving and creating visually compelling results, using my deep skillset in both digital and analog art practices. I am dedicated and detail-oriented, with over 10 years of experience in visual design, higher education, and community-based collaborative projects. I follow a client-centered approach, always leading with empathy, listening patiently, communicating clearly, and welcoming feedback to ensure the best possible results for my clients.
-            </p>
+            <div className={classes.ParagraphOne}>
+              <p>
+              Based in Portland, Oregon, I'm a front-end developer passionate about building accessible web apps that users love.
+              <br></br>
+              <br></br>
+              I have a background in Art and Design, 10 years of experience in higher education teaching complex software to beginner and upper-level learners, and a wide range of technical software development skills using a variety of tech stacks.
+              <br></br>
+              <br></br>
+              I believe that collaboration is crucial for building high-quality products and fostering a positive work culture. I am a dedicated, detail-oriented, kind-hearted, and easy-going teammate who can work efficiently and effectively under tight deadlines with folks from all backgrounds. I lead with empathy, listen patiently, and welcome feedback in order to deliver the best results for my clients.
+              </p>
+            </div>
+            <hr></hr>
+            <div className={classes.ParagraphTwo}>
+              <p>
+              Based in Portland, Oregon, I'm a front-end developer passionate about building accessible web apps that users love.
+              </p>
+            </div>
         </div>
-        {/* <div className={classes.Photo}>
+        <div className={classes.Photo}>
           <img className={classes.Me} src={me} alt="me"></img>
-        </div> */}
+        </div>
       </div>
     </div>
   );

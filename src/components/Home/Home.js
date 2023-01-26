@@ -6,6 +6,7 @@ import { GrWordpress } from "react-icons/gr";
 import Resume from "./../../PDF/John-Whitten_Resume.pdf";
 
 
+
 const Home = () => {
   return ( 
 
@@ -18,29 +19,22 @@ const Home = () => {
         <div className={classes.Row}>
           <div className={classes.Column}>
             <div className={classes.Icons}>
-              <SiHtml5 color="c5d248" size='50px' style={{paddingRight: '5%'}} />
-              <SiCss3 color="c5d248" size='50px' style={{paddingRight: '5%'}} />
-              <SiJavascript color="c5d248" size='50px' style={{paddingRight: '5%'}} />
-              <SiTypescript color="c5d248" size='50px' style={{paddingRight: '5%'}} />
-              <IoLogoNodejs color="c5d248" size='60px' style={{paddingRight: '5%'}} />
-              <SiReact color="c5d248" size='55px' style={{paddingRight: '5%'}} />
-              <GrWordpress color="c5d248" size='55px' style={{paddingRight: '5%'}} />
-              <FaPhp color="c5d248" size='75px' style={{paddingRight: '5%'}} />
-              <SiCsharp color="c5d248" size='55px' style={{paddingRight: '5%'}} />
-              <FaGitAlt color="c5d248" size='55px' style={{paddingRight: '5%'}} />
+              <div className={classes.Icon}><SiHtml5 color="4de29d" size='50px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><SiCss3 color="4de29d" size='50px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><SiJavascript color="4de29d" size='50px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><SiTypescript color="4de29d" size='50px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><IoLogoNodejs color="4de29d" size='60px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><SiReact color="4de29d" size='55px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><GrWordpress color="4de29d" size='55px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><FaPhp color="4de29d" size='75px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><SiCsharp color="4de29d" size='55px' style={{paddingRight: '5%'}} /></div>
+              <div className={classes.Icon}><FaGitAlt color="4de29d" size='55px' style={{paddingRight: '5%'}} /></div>
             </div>
           </div>
         </div>
 
         <h3>
-          <a className={classes.Resume} style={{
-            color: 'white',
-            textDecoration: 'none',
-            border: '1px solid #c5d248',
-            padding: '.5rem',
-            marginTop: '2rem',
-          }}
-            href={Resume} target="blank">
+          <a className={classes.Resume} href={Resume} target="blank">
             DOWNLOAD RESUME
           </a>
         </h3>

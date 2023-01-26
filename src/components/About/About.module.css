@@ -1,5 +1,5 @@
 .AboutMe {
-  background-color: black;
+  background-color: #151515;
   padding-bottom: 5%;
   padding-top: 4%;
 }
@@ -21,8 +21,8 @@
   margin-right: 5%;
 }
 
-/* .AboutMe .Container .Text .ParagraphOne {
-  display: inline-block;
+.AboutMe .Container .Text .ParagraphOne {
+  display: flex;
   justify-content: center;
   min-width: 35vw;
   min-height: 100%;
@@ -33,7 +33,7 @@
   justify-content: center;
   min-width: 35vw;
   min-height: 100%;
-} */
+}
 
 .AboutMe .Container .Text h2 {
   font-weight: 900;
@@ -44,10 +44,10 @@
   font-weight: 200;
   font-size: 16px;
   color: white;
-  column-count: 2;
-  column-gap: 5%;
+  /* column-count: 2;
+  column-gap: 5%; */
   text-indent: 5%;
-  justify-content:baseline;
+  /* justify-content:baseline; */
   padding: 2em 0em;
   line-height: 1.5em;
   font-size: 18px;
@@ -79,6 +79,8 @@
   max-height: 500px;
   border-radius: 10%;
   margin: 2%;
+  filter: grayscale(100%);
+
 }
 
 
@@ -92,7 +94,7 @@
 @media (max-width: 990px) {
 
   .AboutMe {
-    background-color: black;
+    background-color: #151515;
     padding-bottom: 5%;
     padding-top: 8%;
   }

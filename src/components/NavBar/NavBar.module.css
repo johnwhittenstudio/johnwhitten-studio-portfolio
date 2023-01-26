@@ -7,7 +7,7 @@
 }
 
 .NavBar {
-  background: black;
+  background: #151515;
   height: 80px;
   width: 100%;
   position: fixed;
@@ -37,7 +37,7 @@
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #c5d248;
+  border-bottom: 5px solid #4de29d;
 }
 
 .NavBar .MobileNavigation {
@@ -61,12 +61,21 @@
       top: 80px;
       right: 0;
       width: 100%;
+      min-height: 100vh;
       background: #181818;
-      border-top: 2px solid #c5d248;
+      border-top: 2px solid #4de29d;
+      /* padding-bottom: 15%; */
     }
 
     .NavBar nav ul li {
-      padding-left: 15%;
+      padding: 5% 0 5% 15%;
+
+    }
+
+    .NavBar nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
     }
 
     .NavBar {
@@ -75,7 +84,7 @@
 
     .NavBar a:hover {
       border-bottom: none;
-      color: #c5d248;
+      color: #4de29d;
     }
 }
 
@@ -83,4 +92,5 @@
   position: absolute;
   right: 5%;
   cursor: pointer;
+  color: #4de29d;
 }

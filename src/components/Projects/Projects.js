@@ -40,26 +40,26 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
       </div>
       <div className={classes.Text}>
         <h2><i>{title}</i></h2>
-        <br></br>
-        <p>{description}</p>        
+        {/* <br></br>
+        <p>{description}</p>         */}
         <br></br>
         <p>{tech}</p>
         <br></br>
         <div className={classes.LinkContainer} >
-          <button className={classes.Button}><a href={livesite}><p>View Live Site</p></a></button>
+          <div className={classes.Button}><a href={livesite}><p>View Project</p></a></div>
           <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
-          <span>&nbsp;&nbsp;</span>
-          <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
+          <hr color="4de29d"></hr>
           <span>&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;</span>
-          <hr color="c5d248"></hr>
+          <hr color="4de29d"></hr>
           <span>&nbsp;&nbsp;</span>
-          <button className={classes.Button}><a href={github}><p>View on GitHub</p></a></button>
+          <span>&nbsp;&nbsp;</span>
+          <hr color="4de29d"></hr>
+          <span>&nbsp;&nbsp;</span>
+          <div className={classes.Button}><a href={github}><p>View Code</p></a></div>
         </div>
         <br></br>
-        <hr className={classes.Hr} color="c5d248"></hr>
+        {/* <hr className={classes.Hr} color="4de29d"></hr> */}
       </div>
     </div>
   )
@@ -68,7 +68,7 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
 // core: digital art
 const coreDigitalTitle = `Core: Digital Studio`;
 const coreDigitalImageDescription = `Student learning supplement website for college-level digital art course.`;
-const coreDigitalTech = `WordPress • PHP • JavaScript • CSS`;
+const coreDigitalTech = `WordPress • • • PHP • • • JavaScript • • • CSS`;
 const coreDigitalGitHub = `https://github.com/johnwhittenstudio/core-digital-studio`;
 const coreDigitalLiveSite = `https://dll.qxo.mybluehost.me/`;
 
