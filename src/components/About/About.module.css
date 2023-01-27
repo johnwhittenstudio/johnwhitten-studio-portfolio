@@ -37,12 +37,12 @@
 
 .AboutMe .Container .Text h2 {
   font-weight: 900;
-  font-size: 46px;
+  font-size: 2.875rem;
 }
 
 .AboutMe .Container .Text p {
   font-weight: 200;
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   /* column-count: 2;
   column-gap: 5%; */
@@ -50,20 +50,20 @@
   /* justify-content:baseline; */
   padding: 2em 0em;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: lighter;
 }
 
 .AboutMe .Container .Text a {
   font-weight: 200;
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
 }
 
 .AboutMe .Container .Text a:hover {
   font-weight: 200;
-  font-size: 16px;
+  font-size: 1rem;
   color:#518697;
   text-decoration: none;
 }
@@ -76,7 +76,7 @@
 }
 
 .AboutMe .Container .Photo .Me {
-  max-height: 500px;
+  max-height: 600px;
   /* border-radius: 5%; */
   margin: 2%;
   filter: grayscale(100%);
