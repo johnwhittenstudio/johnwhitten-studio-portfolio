@@ -51,7 +51,7 @@
     .NavBar .MobileNavigation {
       display: flex;
       align-items: center;
-      max-height: 896px;
+      min-height: 896px;
       max-width: 100%;
     }
 

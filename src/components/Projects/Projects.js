@@ -120,7 +120,7 @@ const Projects = () => {
         </div>
         <div className={classes.Images}>
           {portfolioImage("https://dll.qxo.mybluehost.me", digitalart, coreDigitalTitle, coreDigitalImageDescription, coreDigitalTech, coreDigitalGitHub, coreDigitalLiveSite )}
-          {portfolioImage("https://github.com/johnwhittenstudio/thunderstruck", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckTech, thunderstruckGitHub, thunderstruckLiveSite )}
+          {portfolioImage("https://thunderstruckcollective.com/", thunderstruck, thunderstruckTitle, thunderstruckImageDescription, thunderstruckTech, thunderstruckGitHub, thunderstruckLiveSite )}
           {portfolioImage("https://johnwhittenstudio.github.io/tap-room/", taproom, maTaproomTitle, maTaproomImageDescription, maTaproomTech, maTaproomGitHub, maTaproomLiveSite )}
           {portfolioImage("https://www.johnwhitten.com/", artportfolio, artPortfolioTitle, artPortfolioImageDescription, artPortfolioTech, artPortfolioLiveSite )}
           {portfolioImage("https://johnwhittenstudio.github.io/project-5/", spaceage, spaceAgeTitle, spaceAgeImageDescription, spaceAgeTech, spaceAgeGitHub, spaceAgeLiveSite )}
