@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/johnwhitten-studio-portfolio/static/css/main.dca1c1e9.css",
-    "main.js": "/johnwhitten-studio-portfolio/static/js/main.49bcbf54.js",
+    "main.js": "/johnwhitten-studio-portfolio/static/js/main.c1edf42e.js",
+    "static/media/campy.gif": "/johnwhitten-studio-portfolio/static/media/campy.a7e8173eb1e55e1b6dd5.gif",
     "static/media/spaceage.png": "/johnwhitten-studio-portfolio/static/media/spaceage.d400940f4fb4bd0555a9.png",
     "static/media/core-digitalart.png": "/johnwhitten-studio-portfolio/static/media/core-digitalart.32efdbee3fffa032edfb.png",
     "static/media/art-portfolio.png": "/johnwhitten-studio-portfolio/static/media/art-portfolio.8bd550ab9cbbced41d72.png",
@@ -12,10 +13,10 @@
     "static/media/John-Whitten_Resume.pdf": "/johnwhitten-studio-portfolio/static/media/John-Whitten_Resume.f09fc2207ac532cd95e1.pdf",
     "index.html": "/johnwhitten-studio-portfolio/index.html",
     "main.dca1c1e9.css.map": "/johnwhitten-studio-portfolio/static/css/main.dca1c1e9.css.map",
-    "main.49bcbf54.js.map": "/johnwhitten-studio-portfolio/static/js/main.49bcbf54.js.map"
+    "main.c1edf42e.js.map": "/johnwhitten-studio-portfolio/static/js/main.c1edf42e.js.map"
   },
   "entrypoints": [
     "static/css/main.dca1c1e9.css",
-    "static/js/main.49bcbf54.js"
+    "static/js/main.c1edf42e.js"
   ]
 }
