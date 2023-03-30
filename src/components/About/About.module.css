@@ -69,7 +69,7 @@
 }
 
 .AboutMe .Container .Photo {
-  width: 60vw;
+  max-width: 60vw;
   display: flex;
   justify-content: center;
   margin-right: 5%;
@@ -80,7 +80,6 @@
   /* border-radius: 5%; */
   margin: 2%;
   filter: grayscale(100%);
-
 }
 
 
@@ -147,5 +146,13 @@
     padding-bottom: 5%;
     padding-top: 0;
   }
+
+  .AboutMe .Container .Photo .Me {
+    max-width: 350px;
+    /* border-radius: 5%; */
+    margin: 2%;
+    filter: grayscale(100%);
+  }
+  
 
 }
