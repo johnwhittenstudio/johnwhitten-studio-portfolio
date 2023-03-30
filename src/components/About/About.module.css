@@ -139,3 +139,13 @@
 
 
 /* ------------ Mobile ------------ */
+
+@media (max-width: 450px) {
+
+  .AboutMe {
+    background-color: #151515;
+    padding-bottom: 5%;
+    padding-top: 0;
+  }
+
+}

@@ -41,8 +41,8 @@ const portfolioImage = (url, thumbnail, title, description, tech, github, livesi
       </div>
       <div className={classes.Text}>
         <h2><i>{title}</i></h2>
-        {/* <br></br>
-        <p>{description}</p>         */}
+        <br></br>
+        <p>{description}</p>        
         <br></br>
         <p>{tech}</p>
         <br></br>
