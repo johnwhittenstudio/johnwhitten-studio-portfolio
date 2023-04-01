@@ -12,35 +12,35 @@ const NavLinks = (props) => {
         animate={animateTo}
         transition={{delay: 0.05}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/johnwhitten-studio-portfolio/">Home</a>
+        <a href="/">Home</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.10}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/johnwhitten-studio-portfolio/#about">About</a>
+        <a href="/#about">About</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}        
         transition={{delay: 0.20}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/johnwhitten-studio-portfolio/#skills">Skills</a>
+        <a href="/#skills">Skills</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/johnwhitten-studio-portfolio/#projects">Projects</a>
+        <a href="/#projects">Projects</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
         transition={{delay: 0.40}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/johnwhitten-studio-portfolio/#contact">Contact</a>
+        <a href="/#contact">Contact</a>
       </motion.li>
     </ul>
   );
