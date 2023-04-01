@@ -15,7 +15,7 @@ const About = () => {
             </p> */}
             <div className={classes.ParagraphOne}>
               <p>
-              Based in Portland, Oregon, I'm a front-end developer passionate about building accessible web apps that users love.
+              Based in Portland, Oregon, I'm a web developer passionate about building accessible web apps that users love.
 
               <br></br>
               <br></br>

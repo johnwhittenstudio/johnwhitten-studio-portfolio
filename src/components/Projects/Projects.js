@@ -76,7 +76,7 @@ const coreDigitalLiveSite = `https://dll.qxo.mybluehost.me/`;
 // thunderstruck
 const thunderstruckTitle = `Thunderstruck`;
 const thunderstruckImageDescription = `Portfolio website with interactive components for an artist collective.`;
-const thunderstruckTech = `React • • • MaterialUI • • • CSS`;
+const thunderstruckTech = `React • • • JavaScript • • • MaterialUI • • • CSS`;
 const thunderstruckGitHub = `https://github.com/johnwhittenstudio/thunderstruck`;
 const thunderstruckLiveSite = `https://thunderstruckcollective.com`;
 
@@ -95,21 +95,21 @@ const artPortfolioLiveSite = `https://www.johnwhitten.com/`;
 
 // campy
 const campyTitle = `Campy: Camping Planner App`;
-const campyImageDescription = `Web app that helps someone plan a camping trip.`;
+const campyImageDescription = `Web app to help plan a camping trip.`;
 const campyTech = `JavaScript • • • HTML5 • • • CSS • • • API`;
 const campyGitHub = `https://github.com/johnwhittenstudio/campy`;
 const campyLiveSite = `https://campy-app.netlify.app/index.html`;
 
 // space age calculalor
 const spaceAgeTitle = `Space Age Calculator`;
-const spaceAgeImageDescription = `Web app that calculates age and life expectancy on different planets.`;
+const spaceAgeImageDescription = `Web app to calculate age and life expectancy on different planets.`;
 const spaceAgeTech = `JavaScript • • • HTML5 • • • CSS`;
 const spaceAgeGitHub = `https://github.com/johnwhittenstudio/project-5`;
 const spaceAgeLiveSite = `https://johnwhittenstudio.github.io/project-5/`;
 
 // nasa api
 const nasaApiTitle = `NASA Photo of the Day API`;
-const nasaApiImageDescription = `Web app that uses NASA Photo of the Day API.`;
+const nasaApiImageDescription = `Web app using NASA Photo of the Day API.`;
 const nasaApiTech = `JavaScript • • • HTML5 • • • CSS • • • API`;
 const nasaApiGitHub = `https://johnwhittenstudio.github.io/nasa_api/`;
 const nasaApiLiveSite = `https://johnwhittenstudio.github.io/nasa_api/`;
