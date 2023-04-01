@@ -154,10 +154,10 @@ button {
 @media (max-width: 600px) {
   .Contact {
     min-height: 896px;
-    /* min-width: 481px; */
   }
   .ContactForm {
     width: 100%;
+    margin: 0 auto;
   }
   .Header {
     width: 100%;

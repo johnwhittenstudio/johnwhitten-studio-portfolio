@@ -267,7 +267,7 @@
   
     .Home .Container {
       left: 0;
-      padding: 5%;
+      padding-left: 5%;
     }
   
     .Home .Column {
